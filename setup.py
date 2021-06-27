@@ -18,7 +18,7 @@ class CompileWpaSupplicantDrc(Command):
 setup(name='drcsim',
       version=constants.VERSION,
       description='Wii U gamepad simulator.',
-      install_requires=['netifaces>=0.10.5'],
+      install_requires=[],
       packages=find_packages(),
       include_package_data=True,
       data_files=[
